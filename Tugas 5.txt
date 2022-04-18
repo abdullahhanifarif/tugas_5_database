@@ -1,0 +1,50 @@
+Tugas 5
+
+1.	Apa pengertian dari character set?
+2.	Apa istilah lain dari database?
+3.	Tuliskan query untuk menampilkan character set di MYSQL!
+4.	Tuliskan query untuk melihat collation yang terdapat di MYSQL!
+5.	Sebutkan 5 tipe data numeric pada MYSQL!
+6.	Sebutkan 5 tipe data string pada MYSQL!
+7.	Sebutkan 3 tipe data date pada MYSQL!
+
+
+
+
+Jawaban
+
+1. 	Character set (biasa disingkat sebagai charset) adalah kumpulan karakter yang bisa dipahami oleh komputer.
+
+2.	Dalam relational database model, sebuah database adalah kumpulan relasi yang saling terhubung satu sama lain.
+
+3.	MariaDB [(none)]> SHOW CHARACTER SET;
+
+4. 	MariaDB [(none)]> SHOW COLLATION;
+
+5.	- TINYINT(size), 
+	- SMALLINT(size), 
+	- MEDIUMINT(size), 
+	- INT(size) atau INTEGER(size), 
+	- BIGINT(size), 
+	- FLOAT(size, d), 
+	- FLOAT(p), 
+	- DOUBLE(size, d), 
+	- DOUBLE PRECISION(size, d) 
+	- REAL 
+	- DECIMAL(size, d) atau DEC(size, d) dan
+	- NUMERIC
+
+6.	- CHAR(size),
+	- VARCHAR(size),
+	- BINARY(size),
+	- VARBINARY(size),
+	- TINYTEXT,
+	- TEXT(size),
+	- MEDIUMTEXT dan
+	- LONGTEXT,
+	
+7. 	- DATE,
+	- DATETIME(fsp),
+	- TIMESTAMP(fsp),
+	- TIME(fsp),
+	- YEAR
